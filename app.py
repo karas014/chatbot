@@ -3,7 +3,6 @@ import io
 import base64
 from flask import Flask, render_template_string, request, jsonify
 from openai import OpenAI
-from gtts import gTTS
 
 app = Flask(__name__)
 
