@@ -10,7 +10,7 @@ app = Flask(__name__)
 # 初始化 OpenRouter 客戶端
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.environ.get("OPENROUTER_API_KEY", "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"),
+    api_key=os.environ.get("OPENROUTER_API_KEY", "OPENROUTER_API_KEY"),
     default_headers={
         "HTTP-Referer": "http://localhost:5001",
         "X-Title": "AI Mirror MVP v2",
